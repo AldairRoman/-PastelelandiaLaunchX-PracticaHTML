@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Pastelandia-pedidos</title>
+</head>
+
+<body>
+
+    <Section class="section-nav">
+        <nav>
+            <p class="p-nav">Pastelandia LaunchX</p>
+            <img class="img-nav " src="Img/Logo.png" alt="Logo-imagen">
+            <a class="nav-a" href="index.html">Inicio</a>
+            <a class="nav-a" href="Pedidos.html">Pedidos</a>
+            <a class="nav-a" href="admin.html">Administración</a>
+        </nav>
+    </Section>
+
+    <!--Sabores-->
+    <div>
+        <h2 class="textCenter">Aquí puedes hacer tu pedido</h2>
+    </div>
+  <form action="">
+    <div class="datosUsuario">
+            <ul>
+               <li>
+                <label for="txtNombre">Nombre</label>
+                <br>
+                 <input type="text" id="txtNombre" name="txtNombre">
+              </li> 
+              <li>
+                <label for="txtTel">Telefono</label>
+                <br>
+                <input type="tel" id="txtTel" name="txtTel" maxlength="10">
+              </li> 
+              <li>
+                <label for="txtMail">Correo electronico</label>
+                <br>
+                <input type="email" id="txtMail" name="txtMail">
+              </li> 
+              <li>
+                <label for="txtDescripcion">Cuentanos acerca de tu pastel</label>
+                <br>
+                <input type="text" id="txtDescripcion" name="txtDescripcion">
+             </li> 
+             
+            </ul>
+        
+        <div class="seleccionSabor">
+           <label>Selecciona los sabores de tu pastel</label>
+           <label><input type="checkbox" id="cboxv" value="vainilla"> vainilla</label>
+           <label><input type="checkbox" id="cboxch" value="chocolate"> chocolate</label>
+           <label><input type="checkbox" id="cboxf" value="fresa">fresa</label>
+           <label><input type="checkbox" id="cboxc" value="coco">coco</label>
+        </div> 
+       
+        <div class="seleccionSabor">
+            <label>Selecciona los adornos para el pastel</label>
+            <label><input type="checkbox" id="cboxb" value="boda">boda</label>
+            <label><input type="checkbox" id="cboxf" value="felicitaciones">felicitaciones</label>
+            <label><input type="checkbox" id="cboi" value="infantiles">infantiles</label>
+            <label><input type="checkbox" id="cboxp" value="personalizado">personalizado</label>
+        </div> 
+        
+        <button>Enviar</button>
+    </div>
+
+    <img class="imagen-pedido" src="Img/Logo.png" alt="imagen-logo">
+  </form>
+</body>
+
+
+</html>
